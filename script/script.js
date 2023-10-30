@@ -14,13 +14,21 @@ function lifeDecrease(value) {
     lifeSpan.innerHTML = count -= value;
 }
 
-function showMenu() {
+function show() {
     let menu = document.getElementById("menu");
-    menu.style.display == "block" ? menu.style.display = "none" : menu.style.display = "block"
+    if(!menu.classList.contains("show")) {
+        menu.style.display = "block"
+        setTimeout(function() {menu.classList.add("show")
+    })
+    } else {
+        menu.classList.remove("show")
+        setTimeout(function() {menu.style.display = "none"
+    }, 1500)
+    }
 }
 
 buttonLifeIncrease1.addEventListener("click", () => lifeIncrease(1));
 buttonLifeIncrease5.addEventListener("click", () => lifeIncrease(5));
 buttonLifeDecrease1.addEventListener("click", () => lifeDecrease(1));
 buttonLifeDecrease5.addEventListener("click", () => lifeDecrease(5));
-menuBTN.addEventListener("click", showMenu)
+menuBTN.addEventListener("click", show)
