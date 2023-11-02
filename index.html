@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/fav2.png">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script defer src="script/script.js"></script>
@@ -21,17 +22,26 @@
         </div>
         <h2 id="tituloGuildas">Guildas</h2>
         <div id="guildas">
-            <button id="azorius" class="manaColor"></button>
+            <button id="azhorus" class="manaColor"></button>
             <button id="dimir" class="manaColor"></button>
             <button id="rakdos" class="manaColor"></button>
             <button id="gruul" class="manaColor"></button>
+            <button id="golgari" class="manaColor"></button>
             <button id="selesnya" class="manaColor"></button>
             <button id="orzhov" class="manaColor"></button>
             <button id="boros" class="manaColor"></button>
             <button id="izzit" class="manaColor"></button>
             <button id="simic" class="manaColor"></button>
-            <button id="golgari" class="manaColor"></button>
         </div>
+        <div id="poisonEnergy">
+            <img src="img/E.png" id="energy"> 
+            <img src="img/P.png" id="poison"> 
+            <img src="img/crown.png" id="crown"> 
+            <img src="img/moon.png" id="moon"> 
+        </div>
+    </div>
+    <div id="monarch">       
+        <img src="img/crown.png" id="monarchImg">
     </div>
     <div id="lifeCounter">       
         <span id="lifeSpan">20</span><br><br>
@@ -39,6 +49,16 @@
         <button id="lifeDecrease1">-1</button>
         <button id="lifeIncrease1">+1</button>
         <button id="lifeIncrease5">+5</button>
+    </div>
+    <div id="poisonCounter">
+        <span id="poisonSpan">0</span><br><br>
+        <button id="">-1</button>
+        <button id="">+1</button>
+    </div>
+    <div id="energyCounter">
+        <span id="energySpan">0</span><br><br>
+        <button id="">-1</button>
+        <button id="">+1</button>
     </div>
 </body>
 </html>
