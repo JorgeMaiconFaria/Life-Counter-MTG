@@ -126,6 +126,7 @@ body {
     background-attachment: fixed;
     position: relative;
     z-index: 1;
+    box-sizing: border-box;
 }
 
 /* Buttons */
