@@ -119,18 +119,18 @@ energyIncrease.addEventListener("mousedown", increaseEnergy)
 energyDecrease.addEventListener("mousedown", decreaseEnergy)
 poisonIncrease.addEventListener("mousedown", increasePoison)
 poisonDecrease.addEventListener("mousedown", decreasePoison)
-btnWhite.addEventListener("mousedown", () => changeBackground("url(../img/plains.jpg)", "black"));
-btnBlue.addEventListener("mousedown", () => changeBackground("url(../img/island.jpg)", "black"));
-btnBlack.addEventListener("mousedown", () => changeBackground("url(../img/swamp.jpg)", "black"));
-btnRed.addEventListener("mousedown", () => changeBackground("url(../img/mountain.jpg)", "black"));
-btnGreen.addEventListener("mousedown", () => changeBackground("url(../img/forest.jpg)", "black"));
-btnAzhorus.addEventListener("mousedown", () => changeBackground("url(../img/azhorus.jpg)", "black"));
-btnBoros.addEventListener("mousedown", () => changeBackground("url(../img/boros.jpg)", "black"));
-btnDimir.addEventListener("mousedown", () => changeBackground("url(../img/dimir.jpg)", "black"));
-btnGolgari.addEventListener("mousedown", () => changeBackground("url(../img/golgari2.jpg)", "darkgreen"));
-btnGruul.addEventListener("mousedown", () => changeBackground("url(../img/gruul.jpg)", "black"));
-btnIzzit.addEventListener("mousedown", () => changeBackground("url(../img/izzit.jpg)", "black"));
-btnSimic.addEventListener("mousedown", () => changeBackground("url(../img/simic.jpg)", "black"));
-btnSelesnya.addEventListener("mousedown", () => changeBackground("url(../img/selesnya.jpg)", "lightgreen"));
-btnRakdos.addEventListener("mousedown", () => changeBackground("url(../img/rakdos.jpg)", "darkred"));
-btnOrzhov.addEventListener("mousedown", () => changeBackground("url(../img/orzhov1.jpg)", "black"));
+btnWhite.addEventListener("mousedown", () => changeBackground("url(img/plains.jpg)", "black"));
+btnBlue.addEventListener("mousedown", () => changeBackground("url(img/island.jpg)", "black"));
+btnBlack.addEventListener("mousedown", () => changeBackground("url(img/swamp.jpg)", "black"));
+btnRed.addEventListener("mousedown", () => changeBackground("url(img/mountain.jpg)", "black"));
+btnGreen.addEventListener("mousedown", () => changeBackground("url(img/forest.jpg)", "black"));
+btnAzhorus.addEventListener("mousedown", () => changeBackground("url(img/azhorus.jpg)", "black"));
+btnBoros.addEventListener("mousedown", () => changeBackground("url(img/boros.jpg)", "black"));
+btnDimir.addEventListener("mousedown", () => changeBackground("url(img/dimir.jpg)", "black"));
+btnGolgari.addEventListener("mousedown", () => changeBackground("url(img/golgari2.jpg)", "darkgreen"));
+btnGruul.addEventListener("mousedown", () => changeBackground("url(img/gruul.jpg)", "black"));
+btnIzzit.addEventListener("mousedown", () => changeBackground("url(img/izzit.jpg)", "black"));
+btnSimic.addEventListener("mousedown", () => changeBackground("url(img/simic.jpg)", "black"));
+btnSelesnya.addEventListener("mousedown", () => changeBackground("url(img/selesnya.jpg)", "lightgreen"));
+btnRakdos.addEventListener("mousedown", () => changeBackground("url(img/rakdos.jpg)", "darkred"));
+btnOrzhov.addEventListener("mousedown", () => changeBackground("url(img/orzhov1.jpg)", "black"));
